@@ -18,4 +18,13 @@
     
 # 3 use Apis 
     - copy the token to authorization tab and switch type to bearer token then paste it
+    Resources
+    http://127.0.0.1:8000/api/project
+    http://127.0.0.1:8000/api/task
+    Custom routes
+    http://127.0.0.1:8000/api/getalltasks  (for employee)
+    http://127.0.0.1:8000/api/submit/1     (submit task)
+    Auth
+    http://127.0.0.1:8000/api/login
+    http://127.0.0.1:8000/api/logout
 
