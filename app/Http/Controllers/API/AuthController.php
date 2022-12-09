@@ -68,5 +68,7 @@ class AuthController extends Controller
     public function logout()
     {
         auth('sanctum')->user()->tokens()->delete();
+        
+        return response()->json(['success' => 'logged out'], 200);
     }
 }
